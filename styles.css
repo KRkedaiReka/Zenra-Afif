@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Tahoma, Serif;
+  color: #263238;
+}
+
+nav {
+  display: flex;
+  justify-content:space-between; 
+  align-items: center;
+  padding: 1rem 8rem;
+  background: #ffffff; 
+}
+
+nav ul {
+  display: flex;
+  list-style: none; 
+}
+
+nav li {
+  padding-left: 4rem; 
+}
+
+nav a {
+  text-decoration: none;
+  color: #0d47a1
+}
+.row {
+    display: table;
+    width: 82%;
+    table-layout: fixed;
+    border-spacing: 10px;
+    margin: 10vh auto;
+    border: none;
+}
+.column-1, .column-2, .column-3 {
+    display: table-cell;
+    /*background-color: red;*/
+    height: 40vh;
+    background-size: cover;
+    background-position-y: center;
+
+}
+.column-1{
+	background-image: url(https://makassarkota.go.id/wp-content/uploads/2022/05/277307745_100686495948418_5276113277460686438_n.jpg);
+}
+.column-2{
+	background-image: url(https://makassarkota.go.id/wp-content/uploads/2021/03/datacovid.png);
+}
+.column-3{
+	background-image: url(https://makassarkota.go.id/wp-content/uploads/2022/05/ppidlogo.png);
+}
+
+.row2{
+	height: 100%;
+	min-height: 58.5vh;
+	width: 80%;
+	display: block;
+	margin: auto;
+	background-image:url('https://makassarkota.go.id/wp-content/uploads/2022/09/PSEL-PROJECT-V3-small-scaled.jpg');
+	background-size: cover;
+}
