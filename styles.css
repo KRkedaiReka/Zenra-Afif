@@ -57,10 +57,143 @@ nav a {
 
 .row2{
 	height: 100%;
-	min-height: 58.5vh;
+	min-height:570px;
 	width: 80%;
 	display: block;
-	margin: auto;
+	margin: 5vh auto;
 	background-image:url('https://makassarkota.go.id/wp-content/uploads/2022/09/PSEL-PROJECT-V3-small-scaled.jpg');
 	background-size: cover;
+}
+.row3 {
+    display: table;
+    width: 80%;
+    table-layout: fixed;
+    border-spacing: 10px;
+    margin: 5vh auto;
+    color: #ae292b;
+
+}
+.columnB {
+    display: table-cell;
+    /*background-color: red;*/
+    text-align: center;
+
+}
+.row4 {
+    display: table;
+    width: 80%;
+    table-layout: fixed;
+    border-spacing: 10px;
+    margin: 5vh auto;
+    color: #ae292b;
+}
+.columnC {
+    display: table-cell;
+    /*background-color: red;*/
+    text-align: center;
+}
+.row5 {
+    display: table;
+    width: 80%;
+    table-layout: fixed;
+    border-spacing: 10px;
+    margin: 1px auto;
+    color: #ae292b;
+}
+.columnD {
+    display: table-cell;
+    background-color: black;
+    text-align: left;
+    color: white;
+    padding: 15px 20px;
+    font-size: 15px;
+}
+.columnD.kosong{
+    background-color: white !important;
+}
+
+.row6 {
+    display: table;
+    width: 80%;
+    table-layout: fixed;
+    border-spacing: 10px;
+    margin: 5vh auto;
+    color: #ae292b;
+}
+.columnF {
+    display: table-cell;
+    /*background-color: red;*/
+    text-align: center;
+}
+.row7 {
+    display: table;
+    width: 80%;
+    table-layout: fixed;
+    border-spacing: 10px;
+    margin: 5vh auto;
+}
+.columnG {
+    display: table-cell;
+    /*background-color: grey;*/
+    padding: 10px ;
+}
+.columnG img{
+    float: left;
+    max-width: 100px;
+    max-height: 100px;
+    width:170px;
+    height:170px;
+    margin-right:15px;
+}
+.columnG span{
+    font-size: 16px;
+}
+.berita{
+    width: 100%; 
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.row8 {
+    display: table;
+    width: 80%;
+    table-layout: fixed;
+    border-spacing: 10px;
+    margin: 5vh auto;
+    color: #ae292b;
+
+}
+.columnH {
+    display: table-cell;
+    /*background-color: red;*/
+    text-align: center;
+
+}
+button{
+    color: #ffffff;
+    background-color: #ae292b;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+}   
+.row9 {
+    display: table;
+    width: 80%;
+    table-layout: fixed;
+    border-spacing: 10px;
+    margin: 5vh auto;
+
+}
+.columnI {
+    display: table-cell;
+    /*background-color: red;*/
+    text-align: center;
+}
+.columnI h4{
+    color: grey;
+}
+.columnI a{
+    color: #ae292b;
+    text-decoration: none;
 }
