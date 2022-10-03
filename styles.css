@@ -27,7 +27,9 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: #0d47a1
+  color: #0D004F;
+  font-weight: bold;
+  font-size: 14px;
 }
 .row {
     display: table;
@@ -40,7 +42,7 @@ nav a {
 .column-1, .column-2, .column-3 {
     display: table-cell;
     /*background-color: red;*/
-    height: 40vh;
+    height: 300px;
     background-size: cover;
     background-position-y: center;
 
@@ -48,13 +50,26 @@ nav a {
 .column-1{
 	background-image: url(https://makassarkota.go.id/wp-content/uploads/2022/05/277307745_100686495948418_5276113277460686438_n.jpg);
 }
+
 .column-2{
 	background-image: url(https://makassarkota.go.id/wp-content/uploads/2021/03/datacovid.png);
 }
 .column-3{
 	background-image: url(https://makassarkota.go.id/wp-content/uploads/2022/05/ppidlogo.png);
 }
-
+.main_div {
+    text-align:center;
+    position: relative;
+    background-color: green;
+}
+.sub_div {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+}
+.sub_div h3 {
+    color: white;
+}
 .row2{
 	height: 100%;
 	min-height:570px;
@@ -137,7 +152,7 @@ nav a {
     /*background-color: grey;*/
     padding: 10px ;
 }
-.columnG img{
+.berita img{
     float: left;
     max-width: 100px;
     max-height: 100px;
@@ -164,7 +179,6 @@ nav a {
 
 }
 .columnH {
-    display: table-cell;
     /*background-color: red;*/
     text-align: center;
 
@@ -196,4 +210,16 @@ button{
 .columnI a{
     color: #ae292b;
     text-decoration: none;
+}
+
+/*tabel*/
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: none;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
 }
